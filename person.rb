@@ -18,10 +18,3 @@ class Person
       end
     end
   end
-
-about_me = Person.new('Anna')
-
-20.times do
-about_me.increment_age
-about_me.to_s
-end

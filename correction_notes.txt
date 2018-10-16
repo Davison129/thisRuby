@@ -1,0 +1,10 @@
+In average_rating method, I thought it calculated too much within that method.
+So I split it into two different methods and called the new method from within average_rating.
+I also changed @player.size to size for more cohesion.
+
+In the player class in the expected_score_per_round method, I found it lacked cohesion.
+So I split it into two methods with average_rating_minus_players.
+
+In the player class in the new_rating method, I found it lacked cohesion.
+So I split it into two methods with opponent_size.
+

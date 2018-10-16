@@ -8,3 +8,7 @@ So I split it into two methods with average_rating_minus_players.
 In the player class in the new_rating method, I found it lacked cohesion.
 So I split it into two methods with opponent_size.
 
+In the player class in the score method, I found a more straightforward method that could be used.
+This is better encapsulation.
+
+These classes are too tightly coupled. I'm not sure how to make them loosely coupled however.

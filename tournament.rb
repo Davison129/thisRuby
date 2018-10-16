@@ -46,7 +46,7 @@ class Player
   end
 
   def score
-    @results.inject(0) { |sum,val| sum += val }
+    @results.sum
   end
 
   def average_opponents_ratings
